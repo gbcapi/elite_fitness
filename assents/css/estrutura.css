@@ -1,0 +1,84 @@
+.estrutura { 
+    background-image: url('../img/background2.jpg'); 
+    background-size: cover; 
+    background-position: center center; 
+    background-attachment: fixed; 
+    height: 100vh; 
+    margin: 0;
+    width: 100%;
+    
+    flex-direction: column;
+    gap: 5rem; 
+ 
+    
+}
+
+#carouselExampleIndicators {   
+    display: flex!important;
+    align-items: center;
+    justify-content: center!important; 
+}
+
+.carousel-inner {
+    width: 120rem;
+    height: 70rem;
+}
+
+.estrutura h2 {
+    text-align: center;
+    font-size: 3.6rem;
+    color: white;
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+    
+}
+
+/*=================Responsividade 1024px=================*/
+
+@media (max-width: 1024px) {
+    .carousel-inner {
+        width: 62rem;
+        height: 36rem;
+    }
+    
+    .estrutura h2 {
+        font-size: 3rem;        
+    }
+    
+
+}
+    
+
+}
+
+/*=================Responsividade 800px=================*/
+
+@media (max-width: 800px) {
+    .carousel-inner {
+        width: 40rem;
+        height: 30rem;
+    }
+    
+    .estrutura h2 {
+        font-size: 3rem;        
+    }
+    
+
+}
+
+/*=================Responsividade 480px=================*/
+
+@media (max-width: 480px) {
+
+    .carousel-inner {
+        width: 30rem;
+        height: 20rem;
+    }
+    
+    .estrutura h2 {
+        font-size: 3rem;        
+    }
+
+   
+}
+

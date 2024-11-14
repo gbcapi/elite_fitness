@@ -1,0 +1,188 @@
+.planos {
+    background-image: url('../img/background2.jpg'); 
+    background-size: cover; 
+    background-position: center center; 
+    background-attachment: fixed; 
+    height: 100vh; 
+    margin: 0;
+    width: 100%;    
+    display: flex;
+    align-items: center; 
+    justify-content: center;    
+    gap: 20rem;
+  
+}
+
+
+.titleplanos{
+    display: flex;
+    flex-direction: column;    
+    align-items: center; 
+    justify-content: space-around;  
+    background-color: white;
+    border-radius: 3rem;
+    height: 50rem;
+    width: 35rem;
+    transition: transform 0.3s!important;
+    box-shadow:  0  0 5rem  1rem black;
+    
+
+}
+
+.titleplanos:hover {
+    border:solid yellow .2rem;
+    transform: scale(1.05)!important;
+    
+}
+
+
+.planos  div  h3 {
+    color: black;
+    font-weight: 900;
+    font-size: 4.4rem;
+}
+
+.planos li {
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.planos  div   a {
+    text-decoration: none!important;
+    font-size: 1.6rem!important;
+    font-weight: 600!important;
+    background-color: white!important;
+    border: solid  black .1rem;
+    color: black!important;
+    padding: 1.5rem 2rem !important;
+    border-radius: 1rem!important;    
+    display: inline-block!important;   
+    transition: transform 0.3s!important;
+
+}
+
+.planos  div a:hover {
+    background-color: yellow!important; 
+    color: #7a7979!important;
+    transform: scale(1.05)!important;
+}
+
+small{
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding-bottom: 5rem;
+   
+}
+
+/*=================Responsividade 1024px=================*/
+
+@media (max-width: 1024px) {
+
+    .titleplanos{
+        height: 40rem;
+        width: 30rem;
+    }
+    
+    .planos  div  h3 {
+        font-size: 3rem;
+    }
+    
+    .planos li {
+        font-size: 1rem;
+    }
+    
+    .planos  div a {
+        font-size: 1.6rem!important;
+        padding: 1rem 1.5rem !important;
+    }
+    
+    
+    small{
+        font-size: 1.6rem;
+        font-weight: 600;
+        padding-bottom: 5rem;
+       
+    }
+    
+
+}
+
+/*=================Responsividade 800px=================*/
+
+@media (max-width: 800px) {
+    .planos {      
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        gap: 2rem;  
+    }
+    
+    .titleplanos{
+        height: 40rem;
+        width: 30rem;
+    }
+    
+    .planos  div  h3 {
+        font-size: 3rem;
+    }
+    
+    .planos li {
+        font-size: 1rem;
+    }
+    
+    .planos  div a {
+        font-size: 1.6rem!important;
+        padding: 1rem 1.5rem !important;
+    }
+    
+    
+    small{
+        font-size: 1.6rem;
+        font-weight: 600;
+        padding-bottom: 5rem;
+       
+    }
+    
+
+}
+
+/*=================Responsividade 480px=================*/
+
+@media (max-width: 480px) {
+
+    .planos {      
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    gap: 2rem;  
+}
+
+.titleplanos{
+    height: 40rem;
+    width: 30rem;
+}
+
+.planos  div  h3 {
+    font-size: 3rem;
+}
+
+.planos li {
+    font-size: 1rem;
+}
+
+.planos  div a {
+    font-size: 1.6rem!important;
+    padding: 1rem 1.5rem !important;
+}
+
+
+small{
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding-bottom: 5rem;
+   
+}
+    
+}
+

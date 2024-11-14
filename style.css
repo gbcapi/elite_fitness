@@ -1,0 +1,48 @@
+@import url(./assents/css/header.css);
+@import url(./assents/css/home.css);
+@import url(./assents/css/unidade.css);
+@import url(./assents/css/estrutura.css);
+@import url(./assents/css/planos.css);
+@import url(./assents/css/matricula.css);
+@import url(./assents/css/footer.css);
+@import url(./assents/css/faq.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%!important;
+}
+
+.logowpp {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+}
+
+/*=================Responsividade 1024px=================*/
+
+@media (max-width: 1024px) {
+    
+
+}
+
+/*=================Responsividade 800px=================*/
+
+@media (max-width: 800px) {
+    
+
+}
+
+/*=================Responsividade 480px=================*/
+
+@media (max-width: 480px) {
+    
+
+}
+
+
+

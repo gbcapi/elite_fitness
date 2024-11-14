@@ -1,0 +1,193 @@
+.unidade {
+    background-image: url('../img/background2.jpg'); 
+    background-size: cover; 
+    background-position: center center; 
+    background-attachment: fixed; 
+    height: 100vh; 
+    margin: 0;
+    width: 100%;
+      
+    height: 120vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+   
+}
+
+.historia > h2 {
+    font-size: 5rem;
+    font-weight: 600;
+    color: white;
+}
+
+.historia {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    gap: 1rem;
+    
+
+}
+
+.historia > p {
+    font-size: 2.6rem;
+    font-weight: 600;
+    color: white;
+}
+
+video{
+    width: 70rem;
+    height: 50rem;
+    padding-bottom: 5rem;
+}
+
+/*=================Responsividade 1024px=================*/
+
+@media (max-width: 1024px) {
+    .unidade {
+        margin: 0;
+                
+        height: 100vh; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: .1rem;
+       
+    }
+    
+    .historia > h2 {
+        font-size: 3.6rem;
+        font-weight: 600;
+        color: white;
+    }
+    
+    .historia {
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        gap: .1rem;
+        
+    
+    }
+    
+    .historia > p {
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: white;
+    }
+    
+    video{
+        width: 40rem;
+        height: 25rem;
+        padding-bottom: 1rem;
+    }
+    
+
+}
+
+/*=================Responsividade 800px=================*/
+
+@media (max-width: 800px) {
+    .unidade {
+        margin: 0;
+                
+        height: 100vh; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+       
+    }
+    
+    .historia > h2 {
+        font-size: 3.6rem;
+        font-weight: 600;
+        color: white;
+    }
+    
+    .historia {
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        gap: 1rem;
+        
+    
+    }
+    
+    .historia > p {
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: white;
+    }
+    
+    video{
+        width: 40rem;
+        height: 30rem;
+        padding-bottom: 1rem;
+    }
+    
+
+}
+
+/*=================Responsividade 450px=================*/
+
+@media (max-width: 450px) {
+
+    .unidade {
+        margin: 0;
+                
+        height: 100vh; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+       
+    }
+    
+    .historia > h2 {
+        font-size: 3rem;
+        font-weight: 600;
+        color: white;
+    }
+    
+    .historia {
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        gap: 1rem;
+        
+    
+    }
+    
+    .historia > p {
+        font-size: 1rem;
+        font-weight: 600;
+        color: white;
+    }
+    
+    video{
+        width: 30rem;
+        height: 20rem;
+        padding-bottom: 1rem;
+    }
+    
+
+}
+

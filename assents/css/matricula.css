@@ -1,0 +1,251 @@
+.matricula {
+    background-image: url('../img/background2.jpg'); 
+    background-size: cover; 
+    background-position: center center; 
+    background-attachment: fixed; 
+    height: 100vh; 
+    margin: 0;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.form-container {
+    width: 100%;
+    max-width: 500px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow:  0  0 5rem  1rem black;
+}
+
+h2 {
+    font-size: 2.6rem;
+    text-align: center;
+    color: #333;
+}
+
+label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.checkbox-group {
+    margin-top: 10px;
+}
+
+.checkbox-group input {
+    margin-right: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: yellow;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: yellow;
+}
+
+.terms {
+    font-size: 14px;
+    color: #666;
+    margin-top: 15px;
+}
+
+/*=================Responsividade 1024px=================*/
+
+@media (max-width: 1024px) {
+
+    .matricula{
+        height: 130vh;
+    }
+
+    .form-container {        
+        width: 36rem;   
+        padding: 1rem;  
+    }
+    
+    h2 {
+        font-size: 2.6rem;
+    }
+    
+    label {
+        font-size: 1rem;
+        margin-top: .1rem;
+
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    select,
+    textarea {
+        width: 100%;
+        padding: 1rem;
+        margin-top: .5rem;
+        margin-bottom: 1rem;;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    
+
+    .checkbox-group {
+        margin-top: 1rem;
+    }
+    
+    .checkbox-group input {
+        margin-right: 1rem;
+    }
+    
+    button {
+        padding: 1rem;  
+        font-size: 1rem;
+
+    }   
+
+    .terms {
+        font-size: 1rem;
+        margin-top: 1rem;
+    } 
+    
+
+}
+
+/*=================Responsividade 800px=================*/
+
+@media (max-width: 800px) {
+    .form-container {
+        width: 36rem;   
+        padding: 1rem;  
+    }
+    
+    h2 {
+        font-size: 2.6rem;
+    }
+    
+    label {
+        font-size: 1rem;
+        margin-top: .1rem;
+
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    select,
+    textarea {
+        width: 100%;
+        padding: 1rem;
+        margin-top: .5rem;
+        margin-bottom: 1rem;;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    
+
+    .checkbox-group {
+        margin-top: 1rem;
+    }
+    
+    .checkbox-group input {
+        margin-right: 1rem;
+    }
+    
+    button {
+        padding: 1rem;  
+        font-size: 1rem;
+
+    }   
+
+    .terms {
+        font-size: 1rem;
+        margin-top: 1rem;
+    }  
+    
+}
+
+/*=================Responsividade 480px=================*/
+
+@media (max-width: 480px) {
+    
+    .form-container {
+        width: 36rem;   
+        padding: 1rem;  
+    }
+    
+    h2 {
+        font-size: 2.6rem;
+    }
+    
+    label {
+        font-size: 1rem;
+        margin-top: .1rem;
+
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    select,
+    textarea {
+        width: 100%;
+        padding: 1rem;
+        margin-top: .5rem;
+        margin-bottom: 1rem;;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    
+
+    .checkbox-group {
+        margin-top: 1rem;
+    }
+    
+    .checkbox-group input {
+        margin-right: 1rem;
+    }
+    
+    button {
+        padding: 1rem;  
+        font-size: 1rem;
+
+    }   
+
+    .terms {
+        font-size: 1rem;
+        margin-top: 1rem;
+    }    
+}
+

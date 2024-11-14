@@ -1,0 +1,152 @@
+.home {
+    background-image: url('../img/background2.jpg'); 
+    background-size: cover; 
+    background-position: center center; 
+    background-attachment: fixed; 
+    height: 100vh; 
+    margin: 0;
+    width: 100%;
+    
+}
+
+
+.elitefit  {
+    height: 100vh !important;
+    display: flex!important;
+    flex-direction: column!important;
+    align-items: center!important;
+    justify-content: center!important;    
+    color: white!important;
+    font-size: 5rem!important;
+    gap: 3rem!important;
+}
+
+.elitefit > h1 {
+    font-size: 6rem;
+    font-weight: 600;    
+}
+
+.elitefit > p {
+    font-size: 3.6rem;
+    font-weight: 600;
+}
+
+.btn {
+    text-decoration: none!important;
+    font-size: 1.6rem!important;
+    font-weight: 600!important;
+    background-color: white!important;
+    color: black!important;
+    padding: 2rem 3rem !important;
+    border-radius: 1rem!important;    
+    display: inline-block!important;   
+    transition: transform 0.3s!important;
+}
+
+.btn:hover {
+    background-color: yellow!important; 
+    color: #7a7979!important;
+    transform: scale(1.05)!important;
+}
+
+/*=================Responsividade 1024px=================*/
+
+@media (max-width: 1024px) {
+
+    .elitefit  {   
+        height: 100vh;              
+        font-size: 1rem!important;
+        gap: 5rem!important;
+    }
+    
+    .elitefit > h1 {
+        font-size: 3.6rem;
+        font-weight: 600;    
+    }
+    
+    .elitefit > p {
+        font-size: 2.6rem;
+        
+    }
+    
+    .btn {
+        font-size: 1.6rem!important;
+        padding: 1.6rem 2rem !important;
+    }
+
+
+    h3{
+        font-size: 1rem;
+    }
+
+}
+
+/*=================Responsividade 800px=================*/
+
+@media (max-width: 800px) {
+    
+    .elitefit  {                 
+        font-size: 1rem!important;
+        gap: 5rem!important;
+    }
+    
+    .elitefit > h1 {
+        font-size: 3.6rem;
+        font-weight: 600;    
+    }
+    
+    .elitefit > p {
+        font-size: 2.6rem;
+        
+    }
+    
+    .btn {
+        font-size: 1.6rem!important;
+        padding: 1.6rem 2rem !important;
+    }
+
+
+    h3{
+        font-size: 1rem;
+    }
+
+}
+
+/*=================Responsividade 480px=================*/
+
+@media (max-width: 480px) {
+
+    .home {
+        height: 100vh;         
+    }
+    
+    
+    .elitefit  {
+        margin-left: 4rem;  
+        width: 80%;
+        font-size: 1rem!important;
+        gap: 5rem!important;
+    }
+    
+    .elitefit > h1 {
+        font-size: 3rem;
+        font-weight: 600;    
+    }
+    
+    .elitefit > p {
+        font-size: 1.6rem;
+        
+    }
+    
+    .btn {
+        font-size: 1.6rem!important;
+        padding: 1.6rem 2rem !important;
+    }
+
+
+    h3{
+        font-size: 1rem;
+    }
+
+}
+

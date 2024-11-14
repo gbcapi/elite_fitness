@@ -1,0 +1,157 @@
+#faq {
+    background-image: url('../img/background2.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h3 {
+    font-size: 3.6rem;
+    color: white;
+}
+
+
+.faq-item {
+    width: 90rem;
+    margin-bottom: .5rem;
+}
+
+
+.faq-item input[type="checkbox"] {
+    display: none;
+}
+
+
+.faq-item label {
+    font-size: 1.6rem;
+    display: block;
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    font-weight: 600;
+    
+
+}
+
+.faq-item label:hover {
+    border: solid yellow .2rem;
+    
+
+
+}
+
+
+.faq-item p {
+    font-size: 1.6rem;
+    background-color: #ecf0f1;
+    padding: 1rem;
+    border-radius: .5rem;
+    display: none;
+    margin-top: 1rem;
+}
+
+
+.faq-item input[type="checkbox"]:checked+label+p {
+    display: block;
+}
+
+/*=================Responsividade 1024px=================*/
+
+@media (max-width: 1024px) {
+    #faq {
+        height: 120vh;
+
+    }
+    
+    h3 {
+        font-size: 3rem;
+        padding-bottom: 2rem;
+    }
+    
+    
+    .faq-item {
+        width: 80rem;
+        margin-bottom: .5rem;
+    }
+    
+    .faq-item label {
+        font-size: 1.6rem;
+        padding: .8rem;
+        border-radius: .5rem;
+        font-weight: 600;        
+    }
+
+    
+    
+    .faq-item p {
+        font-size: 1.6rem;
+        padding: .8rem;
+        border-radius: .5rem;
+        margin-top: .8rem;
+    }
+}
+
+/*=================Responsividade 800px=================*/
+
+@media (max-width: 800px) {
+    #faq {
+
+        height: 100vh;
+
+    }
+    
+    h3 {
+        font-size: 3rem;
+        color: white;
+    }
+    
+    
+    .faq-item {
+        width: 46rem;
+        margin-bottom: .5rem;
+    } 
+  
+    .faq-item label {
+        font-size: 1.6rem;   
+    }  
+
+    .faq-item p {
+        font-size: 1.4rem;
+      
+    }
+    
+
+}
+
+/*=================Responsividade 480px=================*/
+
+@media (max-width: 480px) { 
+    #faq {
+
+        height: 100vh;
+
+    }
+    
+    h3 {
+        font-size: 3rem;
+        color: white;
+    }
+    
+    
+    .faq-item {
+        width: 30rem;
+        margin-bottom: .5rem;
+    } 
+  
+    .faq-item label {
+        font-size: 1rem;   
+    }   
+}
+
