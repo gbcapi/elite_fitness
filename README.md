@@ -45,7 +45,7 @@
 
 
 ## Informações de contato
-<a href="https://html.com/" target="_blank"><img src="./assents/img/icons8-github-48.png" width=100> </a>
+<a href="https://github.com/gbcapi" target="_blank"><img src="./assents/img/icons8-github-48.png" width=100> </a>
 
 
 ## Link de acesso ao site
