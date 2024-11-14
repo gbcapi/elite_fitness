@@ -1,11 +1,15 @@
-# Projeto de Criar um site de Academia 
+# Projeto de Criar um site de academia 
+ Site com a proposta de falar sobre nossa academia Elite Fitness.
 
-   
+## Mockup (mobile e notebook)
 
-
+<div align=center>
+    <img src="./assents/img/Macbook-Air-127.0.0.1.png" width=300>
+    <img src="./assents/img/iPhone-13-PRO-127.0.0.1.png" width=100>    
+</div> 
+ Site desenvolvido em tecnologia HTML e CSS com responsividade em notebooks e smartphones.
 
 ## Descrição do projeto
- Site com a proposta de falar sobre nossa academia Elite Fitness
 
  - Conheça a Elite Fitness
  - Estrutura 
@@ -15,8 +19,6 @@
  - Matricula 
  - Contatos
 
- Site desenvolvido em tecnologia HTML e CSS com responsividade em notebooks e smartphones.
-
 ## Paleta de cores
 
 - Black
@@ -25,7 +27,7 @@
 
 ## Tipografia
 
-- Sansserife
+- Sans serif
 
 ## Lista de tarefas do projeto
 
@@ -38,29 +40,23 @@
         - fonts      
 - [x] Estrutura CSS
 - [x] Javascript
-- [ ] Realizando primeiro comit  
-- [ ] Enviando ao github
+- [x] Realizando primeiro comit  
+- [x] Enviando ao github
 
-
-
-## Mockup (mobile e notebook)
-
-<div align=center>
-    <img src="./assents/img/Macbook-Air-127.0.0.1.png" width=300>
-    <img src="./assents/img/iPhone-13-PRO-127.0.0.1.png" width=100>    
-</div>
 
 ## Informações de contato
+<a href="https://html.com/" target="_blank"><img src="./assents/img/icons8-github-48.png" width=100> </a>
 
 
 ## Link de acesso ao site
+https://gbcapi.github.io/elite_fitness/
 
 ## Tecnologias utilizadas (link para pagina oficial da tecnologia).
-<div align=center>
+
 <a href="https://html.com/" target="_blank"><img src="./assents/img/icons8-html-48.png" width=100></a>
 <a href="https://css3.com/" target="_blank"><img src="./assents/img/icons8-css-48.png" width=100></a>
 <a href="https://www.javascript.com/" target="_blank"><img src="./assents/img/icons8-javascript-48.png" width=100></a>  
-</div>
+
 
 
 
